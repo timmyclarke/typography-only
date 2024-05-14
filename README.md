@@ -1,10 +1,10 @@
-# Web Starter
+#Typography Only for Smosh
 
-> Computers are dumb. Humans make them smart.
+Smosh is an American YouTube sketch comedy-improv collective, independent production company, and former social networking site founded by Anthony Padilla and Ian Hecox.
 
-Starter (boilerplate) for all future projects.
+A web project to experiment with CSS typography.
 
-## Why Does This Exist?
-* Don't start with nothing
-* Common boilerplate for web projects
-* I am a human being who makes mistakes
+## CSS Concepts
+* Typography 
+* Box Model
+* CSS Variables

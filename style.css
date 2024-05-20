@@ -1,3 +1,73 @@
-body {
-    background: rgb(248, 164, 164);
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+:root {
+  --color1: #FF3345;
+  --color2: #00DAD4;
+  --color3: #161717;
+  --primaryfont: Poetsen One
 }
+
+
+body {
+  font-family: var(--primaryfont); 
+  
+ background: linear-gradient(to bottom, #BAEEFF, #FF3345);
+
+
+}
+h1 {
+  color: var(--color1);
+}
+
+h2 {
+  color: var(--color);
+}
+
+li {
+  color: var(--color3);
+}
+
+blockquote {
+  border-left: solid 10px var(--color2);
+padding-left: 10px;
+}
+
+main {
+  width: 34%
+  margin: 0 auto 0 auto;
+  background: #FFECED;
+  padding: 70px;
+  
+}
+
+span {
+  color: var(--color1);
+  
+  background: var(--color2);
+  margin: 4px;
+  padding: 8px;
+
+  font-size: 2rem;
+  float: left;
+}
+
+/* Parent */
+main {
+  position: relative;
+}
+
+
+
+/* Child */
+h1 {
+  background: var(--color2);
+  padding: 8px;
+  
+  top: 10px;
+  left:500px;
+  position: absolute;
+  z-index: 1;
+  
+  margin: 0;
+  
+ 
